@@ -1,0 +1,73 @@
+@media (min-width: 310px){
+    .cuenta__lista{
+        list-style: none;
+        width: 40vw;
+    }
+    .cuenta__categorias{
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 10vh;
+        margin: 1vh 0vw;
+    }
+    .cuenta__imagenes{
+        width: 10vw;
+        height: 8vh;
+        margin: 0.5vh 0.5vw;
+        border-radius: 25%;
+    }
+    .cuenta__tiempo{
+        width: 2.2vw;
+        font-size: 1.4rem;
+        margin-right: 1.8vw;
+    }
+    .cuenta__texto{
+        width: 18vw;
+        font-size: 2vw;
+        font-weight: 700;
+    }
+    .cuenta__datos{
+        width: 2vw;
+        font-size: 2vw;
+        font-weight: 700;
+        color: teal;
+        margin-left: 1vw;
+    }
+}
+
+@media (min-width: 1024px){
+    .cuenta__lista{
+        list-style: none;
+        width: 18vw;
+    }
+    .cuenta__categorias{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 18vw;
+        height: 8vh;
+    }
+    .cuenta__imagenes{
+        width: 8vw;
+        height: 6vh;
+        margin: 0.5vh 0.5vw;
+        border-radius: 25%;
+    }
+    .cuenta__tiempo{
+        width: 2.2vw;
+        font-size: 1.4rem;
+    }
+    .cuenta__texto{
+        width: 8vw;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .cuenta__datos{
+        width: 2vw;
+        font-size: 1rem;
+        font-weight: 700;
+        color: teal;
+    }
+}

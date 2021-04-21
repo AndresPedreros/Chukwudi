@@ -1,0 +1,134 @@
+@media (min-width: 310px){
+    .platos__lista{
+        list-style: none;
+    }
+
+    .platos__categorias{
+        margin-right: 1vw;
+        width: 20w;
+        height: 19.5vh;
+        border-radius: 10%;
+    }
+    .platos__imagenes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 8vw;
+        border-radius: 10%;
+
+    }
+    .platos__ventana{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-style: double;
+        border-radius: 3vw;
+    }
+    .platos__tiempo{
+        margin-top: -1.5vw;
+        position: absolute;
+        background-color: honeydew;
+        width: 4vw;
+        height: 1.5vw;
+        border-radius: 15%;
+        font-size: 1vw;
+    }
+
+    .platos__texto{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.5vh 0vw 0.5vh 0.8vw;
+        width: 15vw;
+        height: 3.5vh;
+        font-size: 1.5vw;
+        font-weight: 400;
+    }
+
+    .platos__datos{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.5vh 0vw 0.5vh 0.8vw;
+        font-size: 1vw;
+    }
+
+    .estrella{
+        width: 1vw;
+        height: 1vh;
+        margin-right: 0.3vw;
+    }
+
+    .platos__contenido{
+        color: gray;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .platos__lista{
+        list-style: none;
+    }
+
+    .platos__categorias{
+        margin-right: 1vw;
+        width: 20w;
+        height: 19.5vh;
+        border-radius: 10%;
+    }
+    .platos__imagenes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        height: 8vw;
+        border-radius: 10%;
+
+    }
+    .platos__ventana{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-style: double;
+        border-radius: 3vw;
+    }
+    .platos__tiempo{
+        margin-top: -1.5vw;
+        position: absolute;
+        background-color: honeydew;
+        width: 4vw;
+        height: 1.5vw;
+        border-radius: 15%;
+    }
+
+    .platos__texto{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.5vh 0vw 0.5vh 0.8vw;
+        width: 15vw;
+        height: 3.5vh;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .platos__datos{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.5vh 0vw 0.5vh 0.8vw;
+    }
+
+    .estrella{
+        width: 1vw;
+        height: 1vh;
+        margin-right: 0.3vw;
+    }
+
+    .platos__contenido{
+        color: gray;
+    }
+}

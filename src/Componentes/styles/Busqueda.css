@@ -1,0 +1,69 @@
+@media (min-width: 310px){
+    .busqueda{
+        border-radius: 25px;
+        background-color: rgb(207, 207, 207);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1vw;
+        height: 25px;
+    }
+
+    .boton{
+        display: flex;
+        background-image: url('../../recursos/assets/icons/126474.svg');
+        width: 4vw;
+        height: 4vw;
+        border-style: none;
+        border-radius: 2.5vw;
+        margin: 0.1vw;
+
+    }
+
+    .search{
+        width: 55vw;
+        background-color: transparent;
+        border-style: none;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        outline: 0;
+    }
+    .search:focus{
+        box-shadow: 0 0 0 2px white, 0 0 0 4px gray;
+    }
+}
+
+@media (min-width: 1024px){
+    .busqueda{
+        border-radius: 25px;
+        background-color: rgb(207, 207, 207);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1vw;
+        height: 5vh;
+    }
+
+    .boton{
+        display: flex;
+        background-image: url('../../recursos/assets/icons/126474.svg');
+        width: 3vw;
+        height: 3vw;
+        border-style: none;
+        border-radius: 2.5vw;
+        margin: 0.1vw;
+
+    }
+
+    .search{
+        width: 30vw;
+        background-color: transparent;
+        border-style: none;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        outline: 0;
+    }
+    .search:focus{
+        box-shadow: 0 0 0 2px white, 0 0 0 4px gray;
+    }
+}

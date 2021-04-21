@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e4bceea.chunk.css",
+    "main.js": "/static/js/main.14d236d2.chunk.js",
+    "main.js.map": "/static/js/main.14d236d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.094d12d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.094d12d8.js.map",
+    "static/js/2.0eb10f73.chunk.js": "/static/js/2.0eb10f73.chunk.js",
+    "static/js/2.0eb10f73.chunk.js.map": "/static/js/2.0eb10f73.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3e4bceea.chunk.css.map": "/static/css/main.3e4bceea.chunk.css.map",
+    "static/js/2.0eb10f73.chunk.js.LICENSE.txt": "/static/js/2.0eb10f73.chunk.js.LICENSE.txt",
+    "static/media/1046784.9066589d.svg": "/static/media/1046784.9066589d.svg",
+    "static/media/109617.d19ce8f8.svg": "/static/media/109617.d19ce8f8.svg",
+    "static/media/Tienda.css": "/static/media/118740.9297153a.svg",
+    "static/media/Busqueda.css": "/static/media/126474.9ed73ca1.svg",
+    "static/media/149220.6268c659.svg": "/static/media/149220.6268c659.svg",
+    "static/media/149316.4741542a.svg": "/static/media/149316.4741542a.svg",
+    "static/media/747376.10a93f10.svg": "/static/media/747376.10a93f10.svg",
+    "static/media/emoji.94d5c645.png": "/static/media/emoji.94d5c645.png",
+    "static/media/headerimage.e0082cd8.png": "/static/media/headerimage.e0082cd8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.094d12d8.js",
+    "static/js/2.0eb10f73.chunk.js",
+    "static/css/main.3e4bceea.chunk.css",
+    "static/js/main.14d236d2.chunk.js"
+  ]
+}

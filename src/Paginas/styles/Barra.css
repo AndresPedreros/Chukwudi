@@ -1,0 +1,334 @@
+@media (min-width: 310px){
+    :root{
+        --margen:3vh 0vw 2vh 0vw;
+    }
+    .barra{
+        box-sizing: border-box;
+        width: 100vw;
+        padding: 1vh 3vw;
+    }
+    .barra_clasi{
+        list-style: none;
+    }
+    .perfil{
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 8vh;
+        padding: 1.5vw;
+        margin: 1vh 0vw 2vh 0vw;
+    }
+
+    .perfil__imagen{
+        width: 4vw;
+        height: 6vh;
+    }
+    .perfil__texto{
+        background-color: rgb(255, 205, 112);
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 4vw;
+        height: 4vw;
+        font-size: 2vw;
+        padding: 1.5vw;
+        font-weight: 800;
+        border-radius: 20%;
+        margin: 1vw;
+    }
+    .text_orden{
+        padding-left: 45%;
+        font-size: 3vw;
+        font-family: cursive;
+        margin: 0;
+    }
+    .emoji{
+        width: 3vw;
+    }
+    .temporizador{
+        display: list-item;
+        align-items:flex-start;
+        justify-content: center;
+        background-color: rgb(12, 59, 100);
+        height: 15vh;
+        border-radius: 25px;
+        padding: 1vh 3vw;
+        margin: var(--margen);
+    }
+    .temporizador_direccion{
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-between;
+        width: 90%;
+        height: 3vh;
+        margin-bottom: 2vw;
+        margin-left: 3vw;
+        padding-right: 3vw;
+    
+    }
+    .direccion{
+        font-size: 1.3rem;
+        padding-top: 0.6vh;
+        margin-left: -4vw;
+        color: white;
+    }
+    .direccion__min{
+        font-size: 1.3rem;
+        padding-top: 0.6vh;
+        margin-left: 4vw;
+        color: white;
+    }
+    .direccion__edit{
+        font-size: 1.3rem;
+        padding-top: 0.6vh;
+        margin-left: auto;
+        color: yellow;
+    }
+    .temporizador__reloj{
+        display: flex;
+        align-items:flex-start;
+        width: 90%;
+        height: 3vh;
+        padding: 0vh 0vw 0vw 2vw;
+    }
+    .reloj__box{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: rgb(61, 136, 201);
+        width: 7vw;
+        height: 5vh;
+        border-radius: 20%;
+        border-style: solid;
+        border-color: rgb(63, 61, 201);
+        border-width: 1px;
+    }
+    .reloj__temp{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 7vw;
+        height: 3vh;
+        padding: 0.1vw;
+        image-rendering: crisp-edges;
+        filter: contrast(10%) sepia(100) hue-rotate(100deg) saturate(1000%);
+    }
+    
+    .cuenta{
+        width: 93vw;
+        padding: 2vh 30%;
+        height: 40vh;
+        display: list-item;
+        list-style: none;
+        overflow:auto;
+    }
+    .total{
+        height: 10vh;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 3vh 3vw;
+        margin: var(--margen);
+    }
+    .total__texto{
+        font-size: 2rem;
+    }
+    .total__valor{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .cantidad{
+        height: 8vh;
+        display: flex;
+        align-items:center;
+        padding: 2vh 21vw;
+        justify-content: space-between;
+        border-top: teal;
+        border-top-width: 1px;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+        border-style: solid;
+        margin: var(--margen);
+    }
+    .cantidad_checkout{
+        display: flex;
+        align-items: center;
+        background-color: rgb(196, 196, 66);
+        font-size: 2vw;
+        padding-left: 2vw;
+        height: 6vh;
+        width: 15vw;
+        border-radius: 10%;
+        margin-top: 1vh;
+    }
+    .cantidad__flechita{
+        width: 2vw;
+        height: 1vw;
+    }
+}
+@media (min-width: 1024px){
+:root{
+    --margen:3vh 0vw 2vh 0vw;
+}
+.barra{
+    box-sizing: border-box;
+    width: 25vw;
+    padding: 1vw;
+}
+.barra_clasi{
+    list-style: none;
+}
+.perfil{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 8vh;
+    padding: 1.5vw;
+    margin: 1vh 0vw 2vh 0vw;
+}
+.perfil__imagen{
+    width: 4vw;
+    height: 6vh;
+}
+.perfil__texto{
+    background-color: rgb(255, 205, 112);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 6vh;
+    font-size: 2vw;
+    padding: 1.5vw;
+    font-weight: 800;
+    border-radius: 20%;
+    margin: 1vw;
+}
+.text_orden{
+    font-size: 2rem;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+.emoji{
+    width: 2vw;
+}
+.temporizador{
+    display: list-item;
+    align-items:flex-start;
+    justify-content: center;
+    background-color: rgb(12, 59, 100);
+    height: 15vh;
+    border-radius: 25px;
+    padding: 2vw;
+    margin: var(--margen);
+}
+.temporizador_direccion{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+    width: 90%;
+    height: 3vh;
+
+}
+.direccion{
+    font-size: 1.3rem;
+    padding-top: 0.6vh;
+    color: white;
+}
+.direccion__edit{
+    font-size: 1.3rem;
+    padding-top: 0.6vh;
+    text-decoration: none;
+    color: yellow;
+}
+.temporizador__reloj{
+    position: relative;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 90%;
+    height: 3vh;
+    margin-top: 2vh;
+    padding: 0;
+
+
+}
+.reloj__box{
+    display: flex;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(61, 136, 201);
+    width: 2.5vw;
+    height: 4vh;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(63, 61, 201);
+    border-width: 1px;
+}
+.reloj__temp{
+    width: 1.5vw;
+    height: 3vh;
+    padding: 0.1vw;
+    margin-left: 0.4vw;
+    image-rendering: crisp-edges;
+    filter: contrast(10%) sepia(100) hue-rotate(100deg) saturate(1000%);
+}
+
+.cuenta{
+    width: 23vw;
+    height: 28vh;
+    display: list-item;
+    list-style: none;
+    overflow:hidden;
+    padding: 0vh 2vw;
+}
+.total{
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+    margin: var(--margen);
+}
+.total__texto{
+    font-size: 2rem;
+}
+.total__valor{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.cantidad{
+    height: 8vh;
+    display: flex;
+    align-items:center;
+    padding: 2vh 2vw;
+    justify-content: space-between;
+    border-top: teal;
+    border-top-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-style: solid;
+    margin: var(--margen);
+}
+.cantidad_checkout{
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 196, 66);
+    font-size: 1.2rem;
+    padding-left: 2vw;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10%;
+}
+.cantidad__flechita{
+    width: 2vw;
+    height: 1vw;
+}
+
+}
